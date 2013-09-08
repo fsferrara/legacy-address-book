@@ -1,0 +1,31 @@
+###############################################################
+#                                                             #
+#    Progetto di Laboratorio di Sistemi Operativi (mod. B)    #
+#                                                             #
+#                  Ferrara Francesco Saverio                  #
+#                           566/811                           #
+#                                                             #
+###############################################################
+
+1) Per compilare usare il comando "make".
+   In questo modo verranno creati due eseguibili "server" e
+   "client".
+   Il client funziona collegandosi ad un server avviato sulla
+   stessa macchina oppure su un altra macchina individuata
+   da un ip.
+   La prima volta che si esegue il server bisogna lanciarlo
+   con l'opzione "server -r" in modo da resettare il file che
+   ci fara' da rubrica.
+   Al client bisogna passare per argomento l'ip della
+   macchina a cui si vuole connettersi. Se si omette questo
+   parametro esso verra' interpretato come "127.0.0.1".
+   Per maggiori informazioni leggere la documentazione
+   contenuta nella cartella "doc/"
+
+2) [OPZIONALE] Se si desisdera installare il programma sul
+   proprio sistema, lo si puo' fare lanciando il comando
+   "make install"
+
+3) Per cancellare gli eseguibili creati usare il comando
+   "make clean".
+
